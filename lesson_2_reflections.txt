@@ -3,10 +3,17 @@ What happens when you initialize a repository? Why do you need to do it?
 	You cannot commit without doing it.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+	It's an intermediate stage between the two.
+	It's a safety check so things don't go live before you want them to.
+	It's lets you limit the number of commits while creating reversable changes.
 
 How can you use the staging area to make sure you have one commit per logical change?
+	By giving you a way to run diff before committing
+	You can then check to see if it's one logical change
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to try something experimental
+	When you want to mess around without changing the master
 
 How do the diagrams help you visualize the branch structure?
 
