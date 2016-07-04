@@ -16,7 +16,11 @@ What are some situations when branches would be helpful in keeping your history 
 	When you want to mess around without changing the master
 
 How do the diagrams help you visualize the branch structure?
+	By showing branches like a tree
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	A single chain leading to the master HEAD
+	Because they break apart then come abck together
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Time savings.
